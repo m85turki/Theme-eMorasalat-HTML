@@ -49,16 +49,12 @@
 .main_sidebar {
     position: fixed;
     z-index: 999 !important;
-    height: auto;
-	top:8rem;
-    max-height: calc(100vh - 13.3rem) !important;
-    min-height: calc(65vh - 13.3rem) !important;
+    height: 100%;
+    max-height:100vh;
     display: block;
     background-color: #ffffff;
     transition: width 0.3s;
     transform: translateZ(0);
-    margin: 0px 15px;
-    border-radius: 7px;
     border: 1px solid #E5E5E5;
     padding-bottom: 5px;
 }

@@ -131,9 +131,6 @@ html body {
     direction: rtl
 }
 
-html body.fixed-navbar {
-    padding-top: 7rem;
-}
 
 
 
