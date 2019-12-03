@@ -1,0 +1,141 @@
+
+#ip-container {
+  position: relative;
+}
+.article,.article2 {
+  float: right;
+}
+
+.article-design{
+  border: 1px solid #c2c2c2;
+  color: #585858;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 9px;
+  border-radius: 6px;
+}
+
+/*appear when i press on article*/
+.article.active .article-design,.article2.active .article-design{
+	background-color:#4A90E2;
+	color:white;
+}
+.article.active i{
+  transform: rotate(180deg);
+  position: relative;
+}
+.article.active i::before{
+  top: -5px;
+  position: relative;
+}
+.article > h2 {
+  margin: 0 0 10px;
+  color: #337ab7;
+}
+.article span ,.article2 span{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.article strong {
+  color: #d7342f;
+}
+.ip-details {
+  display: none;
+}
+.inlinepopup {
+  background: #FBFBFB none repeat scroll 0 0;
+  border: 1px solid #c2c2c2;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 0.25rem;
+}
+.inlinepopup_content {
+  margin: 20px;
+  color: #585858;
+	
+}
+.inlinepopup_arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #c2c2c2;
+    position: absolute;
+    top: -10px;
+}
+
+
+.inlinepopup_content h2 {
+  color: #585858;
+  margin: 0;
+  padding: 0 0 10px;
+}
+.inlinepopup_content ul, .inlinepopup_content ol {
+  margin: 0 0 20px;
+  padding: 0 0 0 20px;
+}
+.inlinepopup_content .img-middle img {
+  margin: 5px auto;
+}
+.inlinepopup_content a.go-button {
+  background: rgba(0, 0, 0, 0) url("../images/images/arrow-right.png") no-repeat scroll right center / 18% auto;
+  color: #585858;
+  font: 600 18px/150% "Source Sans Pro",sans-serif;
+  padding: 5px 30px 5px 0;
+}
+.article .badge,.article2 .badge{
+	background-color:#4A91E3;
+	color:white!important;
+}
+.article.active  .badge,.article2.active .badge{
+	background-color:white;
+	color:#4A91E3!important;
+}
+.expand{
+	color:#D7D7D8;
+	font-size:15px;
+	cursor: pointer;
+}
+.article .prem,.article2 .prem{
+	color:#ACACAC;
+}
+.article.active .prem,.article2.active .prem{
+	color:#fff;
+}
+.active .expand{
+	color:white;
+}
+.glyphicon-ok:before,.glyphicon-ok2:before {
+    content: "\e013";
+}
+.roundedred3{
+	height: 22px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+	padding: 4px 9px;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	line-height: 1;
+    min-width: 10px;
+}
+.inlinepopupClose{
+	display: none;
+}
+.badge{
+	padding: 3px 9px;
+	font-weight: 300;
+}
+
+.article-design{
+	margin-left: 0px;
+}
+
+
+
