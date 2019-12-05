@@ -829,7 +829,6 @@ body.vertical-layout.vertical-menu.menu-collapsed .navbar.navbar-brand-center .n
 
 body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content a.menu-title,
 body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content>span.menu-title {
-  left: -240px;
   text-align: right;
 }
 

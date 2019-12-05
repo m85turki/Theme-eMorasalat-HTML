@@ -131,12 +131,10 @@
                     <li class="active nav-item">
 
                         <a href="#">
-                            <div class="d-inline">
                             <i>
                                 <img src="../assets/images/menu/my-correspondence.svg">
                             </i>
                             <span class="menu-title">معاملاتي</span>
-                        </div>
                             <span class="badge badge badge-primary badge-pill float-left ml-2">3</span>
                         </a>
                         <ul class="menu-content">
@@ -155,7 +153,7 @@
 
                         <a href="#">
                             <i>
-                                <img src="../assets/images/v-menu3.png">
+                                <img src="../assets/images/menu/v-menu3.png">
                             </i>
                             <span class="menu-title">مستلمة</span>
                             <span class="badge badge badge-primary badge-pill float-left ml-2">3</span>
@@ -2635,6 +2633,20 @@ $(".right-arrow").click(function () {
 });
 
 });
+
+</script>
+<script>
+    $(function(){
+        $(".hidden-xs").click(function(){
+            if($(this).hasClass("is-active")){
+                $(".main_logo img").attr("src","../assets/images/logo-icon.svg")
+            }
+            else{
+                $(".main_logo img").attr("src","../assets/images/logo.svg") 
+            }
+
+        })
+    })
 
 </script>
 					   
