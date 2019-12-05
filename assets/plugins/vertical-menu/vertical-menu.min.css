@@ -363,11 +363,10 @@ footer.footer-dark {
 
 .main-menu.menu-light .navigation {
     background: #FFF;
-    max-height: calc(100% - 137px) !important;
     height:100%;
     overflow-x:hidden;
 }
-}
+
 
 .vertical-overlay-menu .main-menu .main-menu-content {
     background: #FFF;
@@ -852,8 +851,9 @@ opacity:0.6;
 }
 
 .main-menu .main-menu-content {
-    height: 100%!important;
-    position: relative
+    max-height: calc(100vh - 137px) !important;
+    height: auto !important;
+    position: relative;
 }
 
 .main-menu ul {
