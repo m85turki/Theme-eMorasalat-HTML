@@ -332,7 +332,8 @@ footer.footer-dark {
 .main-menu.menu-dark .navigation>li>a i,
 .main-menu.menu-light .navigation>li>a i {
     position: relative;
-    top: 3px
+    top: 3px;
+    margin-left:12px;
 }
 
 .main-menu.menu-light .navigation>li ul .has-sub:not(.open)>ul,
@@ -362,6 +363,10 @@ footer.footer-dark {
 
 .main-menu.menu-light .navigation {
     background: #FFF;
+    max-height: calc(100% - 137px) !important;
+    height:100%;
+    overflow-x:hidden;
+}
 }
 
 .vertical-overlay-menu .main-menu .main-menu-content {
@@ -382,7 +387,7 @@ footer.footer-dark {
 }
 
 .main-menu.menu-light .navigation li a {
-    color: #262f6b;
+    color:#262B56;
 }
 
 .main-menu.menu-light .navigation li a span.menu-sub-title {
@@ -393,7 +398,6 @@ footer.footer-dark {
 .main-menu.menu-light .navigation li.hover > a,
 .main-menu.menu-light .navigation li.open > a {
     color: #4A90E2;
-    background-color: #F5F7FA
 }
 
 .main-menu.menu-light .navigation>li {
@@ -401,10 +405,11 @@ footer.footer-dark {
     direction: rtl;
     border-right: 4px solid transparent;
 }
-
-.main-menu.menu-light .navigation>li.hover, .main-menu.menu-light .navigation>li.active {
-    border-right: 4px solid #F5F7FA;
+.main-menu.menu-light .navigation>li.open {
+opacity:0.6;
 }
+
+
 
 .main-menu.menu-light .navigation>li>a {
     padding: 10px 14px 10px 60px;
@@ -417,13 +422,12 @@ footer.footer-dark {
     margin-right: 5px
 }
 
-.main-menu.menu-light .navigation>li.open {
-    border-right: 4px solid #4A90E2
+.main-menu.menu-light .navigation>li.open div {
+    opacity: 0.5;
 }
 
 .main-menu.menu-light .navigation>li.open>a {
     color: #2C3648;
-    background: #F5F7FA
 }
 
 .main-menu.menu-light .navigation>li.open .hover>a {
@@ -434,7 +438,6 @@ footer.footer-dark {
 .main-menu.menu-light .navigation>li.hover>a,
 .main-menu.menu-light .navigation>li:hover>a {
     color: #2C3648;
-    background-color: #F5F7FA
 }
 
 .main-menu.menu-light .navigation>li.active>a.mm-next,
@@ -444,7 +447,6 @@ footer.footer-dark {
 }
 
 .main-menu.menu-light .navigation>li.active>a {
-    color: #4A90E2;
     font-weight: 400
 }
 
@@ -816,7 +818,7 @@ footer.footer-dark {
     max-height: -webkit-calc(100% - 0rem);
     max-height: -moz-calc(100% - 0rem);
     max-height: calc(100% - 0rem);
-    height: auto;
+    height: 100%;
 }
 
 @media (min-width: 768px){
@@ -850,8 +852,7 @@ footer.footer-dark {
 }
 
 .main-menu .main-menu-content {
-    max-height: calc(100vh - 15.6rem) !important;
-    height: auto !important;
+    height: 100%!important;
     position: relative
 }
 
@@ -879,7 +880,6 @@ footer.footer-dark {
 .navigation {
     font-size: 1rem;
     font-weight: 300;
-    overflow-y: hidden;
     padding-bottom: 20px
 }
 
@@ -4126,6 +4126,7 @@ tr.shown td.details-control {
 .DTFC_RightBodyLiner {
     background: #fff
 }
+
 
 @media only screen and (max-width:768px) {
     div.dataTables_wrapper div.dataTables_paginate ul.pagination {
