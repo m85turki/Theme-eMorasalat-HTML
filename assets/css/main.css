@@ -55,7 +55,6 @@
     background-color: #ffffff;
     transition: width 0.3s;
     transform: translateZ(0);
-    border: 1px solid #E5E5E5;
     padding-bottom: 5px;
 }
 
