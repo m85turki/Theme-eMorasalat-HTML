@@ -703,9 +703,8 @@ white-space: nowrap;
 .nav-link.menu-toggle{
     display: inline-block;
     padding: 0px;
-    color: #61669B;
-    font-size: 20pt;
-    line-height: 2rem;
+    color: #27AAE1;
+    font-size: 16pt;
 }
 
 
