@@ -83,14 +83,14 @@
 
 .h-side a{
     font-size: 18pt;
-    color: #61669B;
+    color: #8284a2;
     position: relative;
     text-decoration: none;
 }
 
 
 .h-side a:hover{
-    color: rgba(255, 255, 255, 0.55);
+    color: #525368;
 }
 
 .h-side a em{
@@ -137,7 +137,7 @@
     align-items: center!important;
 }
 
-.h-side .dropdown  a {
+.h-side .dropdown a {
    font-size: 11pt;
     color: #61669B;
     position: relative;

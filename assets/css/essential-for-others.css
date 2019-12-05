@@ -133,10 +133,11 @@ a, a:hover, a:focus {
 }
 
 .navbar-second {
-    background-color: #353C77;
+    background-color: transparent;
     margin-bottom: 0;
     border: none;
     border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
