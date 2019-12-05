@@ -4167,7 +4167,9 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>i{m
 body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>i>img{ height: 20px;}
 
 
-body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>span{visibility:visible; vertical-align: text-top;}
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>span:first-child{visibility:visible; vertical-align: text-top;text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;margin-left: 36px;}
 
 body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>span.badge{
     position:absolute; margin-top: 3px; left:25px;visibility:visible}
