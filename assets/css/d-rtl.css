@@ -880,11 +880,8 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-c
   body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .main-menu {
       right: 0
   }
-  body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .main-menu span.menu-title {
-      right: 52px
-  }
+
   body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .main-menu ul.menu-content {
-      right: 52px;
       left: inherit;
       direction: rtl !important;
   }
