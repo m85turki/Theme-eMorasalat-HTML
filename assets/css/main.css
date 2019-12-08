@@ -2436,6 +2436,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 
 .vertical-layout .mobile-menu{
     display: block;
+    z-index: 1000000000000000000000000000000000000;
 }
 
 /* added_departments */
