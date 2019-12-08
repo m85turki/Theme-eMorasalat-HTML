@@ -113,8 +113,8 @@
 
     <!-- BEGIN: Vertical Menu -->
     <div class="align-self-start main_sidebar ">
-            <div class="d-none d-md-block my-3 mx-3 d-flex">
-                    <a class="nav-link nav-menu-main menu-toggle hidden-xs main_logo" href="#">
+            <div class="my-3 mx-3 d-flex logo_div">
+                    <a class="main_logo" href="#">
                         <img src="../assets/images/logo.svg" title="" alt="">
                     </a>
                 </div>
@@ -2754,18 +2754,22 @@ $(".right-arrow").click(function () {
 </script>
 <script>
     $(function(){
-        $(".hidden-xs").click(function(){
-            if($(this).hasClass("is-active")){
-                $(".main_logo img").attr("src","../assets/images/logo-icon.svg")
+        var opposite=$(".hidden-xs").hasClass("is-active");
+        $(window).resize(function(){
+            var screent=$(this);
+            if(screent.width()>=991){
+                
+                $(".main_logo img").attr("src","../assets/images/logo.svg");
             }
             else{
-                $(".main_logo img").attr("src","../assets/images/logo.svg") 
+                $(".main_logo img").attr("src","../assets/images/logo-icon.svg");
             }
+        });
 
-        })
     })
-
+$
 </script>
+
 					   
 </body>
 
