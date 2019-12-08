@@ -153,6 +153,10 @@ html body {
    border-radius: 7px;
 }
 
+.h-side .dropdown a.department-name:hover, .h-side .dropdown.open a.department-name  {
+   border: 1px solid rgba(38, 43, 86, 1.0);
+}
+
 .notifications .dropdown-menu a li span {
     padding: 3px!important;
 }
