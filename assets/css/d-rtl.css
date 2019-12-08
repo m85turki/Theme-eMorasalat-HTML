@@ -367,9 +367,16 @@ html body[data-col='1-column']:not(.vertical-content-menu) .footer {
 .main-menu.menu-light .navigation>li {
   direction: rtl;
   border-right: 4px solid transparent;
+
 }
 .main-menu.menu-light .navigation>li>a {
   padding: 10px 14px 10px 60px;
+}
+.menu-title{
+  margin-left:50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .main-menu.menu-light .navigation>li>a .label {
@@ -1703,6 +1710,7 @@ a.file {
 
 .main-menu.menu-light .navigation>li.nav-item>a {
   padding-left: 5px;
+      position: relative;
 }
 
 .custom-nav-tabs.nav-tabs>li:first-child>a
