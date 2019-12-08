@@ -175,6 +175,7 @@ html body {
     min-width: 38px;
     max-width: 38px;
     border: 1px solid rgba(38, 43, 86, 0.3);
+    border-color: #27AAE1;
 }
 
 .h-avatar i {
@@ -320,15 +321,8 @@ input:focus:-ms-input-placeholder {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #525368  ;
 }
-
-@media (max-width: 767px){
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent !important;
-}
-    .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
-    background-color:rgba(255, 255, 255, 0.55);
-}
+.navbar-default .navbar-toggle:hover{
+    background-color:transparent;
 }
 
 
@@ -341,11 +335,7 @@ input:focus:-ms-input-placeholder {
     }
 }
 
-@media (max-width: 767px){
-.navbar-default.navbar-second .navbar-toggle {
-    border-color: transparent !important;
-}
-}
+
 
 
 .btn-options .btn-site {

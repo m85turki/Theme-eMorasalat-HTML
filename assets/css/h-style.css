@@ -1544,6 +1544,7 @@ a.white-notification .notification_sticky{
     background: #27AAE1;
     border-color: #262b56;
     color:#fff;
+    padding: 10px 10px;
 }
 
 .top-nav-list {
@@ -3489,7 +3490,7 @@ table > thead > tr {
 
         .navbar-default .navbar-nav > li > a {
             font-size: 16px !important;
-            padding: 15px 0;
+            padding: 10px 10px;
         }
 
     .notification-row .m-auto {
