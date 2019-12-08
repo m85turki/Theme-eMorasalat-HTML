@@ -366,7 +366,7 @@ html body[data-col='1-column']:not(.vertical-content-menu) .footer {
 
 .main-menu.menu-light .navigation>li {
   direction: rtl;
-  border-right: 4px solid transparent;
+  border-right: 2px solid #27AAE1;
 
 }
 .main-menu.menu-light .navigation>li>a {
@@ -386,6 +386,10 @@ html body[data-col='1-column']:not(.vertical-content-menu) .footer {
 .main-menu.menu-light .navigation>li ul li>a {
   padding: 10px 18px 10px 50px
 }
+.main-menu.menu-light .navigation>li ul li>a:hover {
+background-color:#FBFBFB;
+}
+
 
 .main-menu.menu-light .navigation>li ul .open>ul li>a {
   padding: 10px 18px 10px 60px
@@ -950,7 +954,7 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
 }
 
 .vertical-overlay-menu .main-menu .navigation li.has-sub>a:not(.mm-next):after {
-  left: 20px;
+  left: 17px;
 }
 
 .vertical-overlay-menu.menu-flipped .main-menu {
