@@ -17,6 +17,10 @@
 @import "./h-style.css";
 @import "./help.css";
 
+
+html body {
+    background-color: #FBFBFB !important;
+}
 /* Main */
 
 .fixed-top {
@@ -144,7 +148,7 @@
 }
 
 .h-side .dropdown a.department-name{
-   border: 1px solid #525368 ;
+   border: 1px solid rgba(38, 43, 86, 0.3);
    padding: 5px 10px;
    border-radius: 7px;
 }
@@ -1760,7 +1764,7 @@ position :relative;
     color: #262B56;
     border: 0px; 
     background-color: transparent;
-    border-bottom: 3px solid #3290E9;
+    border-bottom: 3px solid #27AAE1;
     position:relative;
 }
 /** end sub tabs **/
