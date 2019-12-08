@@ -17,6 +17,10 @@
 @import "./h-style.css";
 @import "./help.css";
 
+
+html body {
+    background-color: #FBFBFB !important;
+}
 /* Main */
 
 .fixed-top {
@@ -115,7 +119,7 @@
 
 .h-side .dropdown>a{
     font-size: 12pt;
-    color: #61669B;
+    color: #525368 ;
     position: relative;
 }
 
@@ -125,13 +129,13 @@
 }
 
 .h-side .dropdown>a:hover, .h-side .dropdown.open>a {
-    color: rgba(255, 255, 255, 0.55);
+    color: #8284a2;
 }
 
 
 .h-side .dropdown li a{
     font-size: 11pt;
-    color: #61669B;
+    color: #525368 ;
     position: relative;
     -ms-flex-align: center!important;
     align-items: center!important;
@@ -139,8 +143,14 @@
 
 .h-side .dropdown a {
    font-size: 11pt;
-    color: #61669B;
+    color: #525368 ;
     position: relative;
+}
+
+.h-side .dropdown a.department-name{
+   border: 1px solid rgba(38, 43, 86, 0.3);
+   padding: 5px 10px;
+   border-radius: 7px;
 }
 
 .notifications .dropdown-menu a li span {
@@ -193,7 +203,7 @@
     text-align: center;
     line-height: 28px;
     font-size: 18pt;
-    color: #61669B;
+    color: #525368 ;
     top: 5px;
     cursor: pointer;
     z-index:10;
@@ -246,7 +256,7 @@
     flex:1 1 auto;
 }
 input::-webkit-input-placeholder {
-    color: #61669B;
+    color: #525368 ;
 }
 input:focus::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.55);
@@ -254,7 +264,7 @@ input:focus::-webkit-input-placeholder {
 
 /* Firefox < 19 */
 input:-moz-placeholder {
-    color: #61669B;
+    color: #525368 ;
 }
 input:focus:-moz-placeholder {
     color: rgba(255, 255, 255, 0.55);
@@ -262,7 +272,7 @@ input:focus:-moz-placeholder {
 
 /* Firefox > 19 */
 input::-moz-placeholder {
-    color: #61669B;
+    color: #525368 ;
 }
 input:focus::-moz-placeholder {
     color: rgba(255, 255, 255, 0.55);
@@ -270,7 +280,7 @@ input:focus::-moz-placeholder {
 
 /* Internet Explorer 10 */
 input:-ms-input-placeholder {
-    color: #61669B;
+    color: #525368 ;
 }
 input:focus:-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.55);
@@ -292,7 +302,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #61669B ;
+    background-color: #525368  ;
 }
 
 @media (max-width: 767px){
@@ -1753,7 +1763,7 @@ position :relative;
     color: #262B56;
     border: 0px; 
     background-color: transparent;
-    border-bottom: 3px solid #3290E9;
+    border-bottom: 3px solid #27AAE1;
     position:relative;
 }
 /** end sub tabs **/
@@ -1918,7 +1928,7 @@ position :relative;
 }
 .header-notification-row label.dark-color
 {
-    color:#61669B;
+    color:#525368 ;
 }
 /** end header notifications **/
 /** notifications **/
