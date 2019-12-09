@@ -2771,15 +2771,9 @@ $
 </script>
 <script>
     $(function () {
-        $(".hidden-xs").on("click", function () {
-            if ($(this).hasClass("is-active")) {
-
-                $(".main_logo img").attr("src", "../assets/images/logo.svg");
-            }
-            else {
-                $(".main_logo img").attr("src", "../assets/images/logo-icon.svg");
-            }
-        });
+        if($(".vertical-layout").hasClass("menu-expanded")){
+            $(".main_logo img").attr("src","../assets/images/logo.svg");
+        }
     });
 </script>
 
