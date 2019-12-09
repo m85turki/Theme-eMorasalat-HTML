@@ -1587,7 +1587,6 @@ a.file {
 
 .nav-link.menu-toggle{
   text-align: right;
-  margin: 3px 15px 3px 10px;
 }
 
 .removing_tag {
@@ -1999,7 +1998,7 @@ table tr td {
 
 @media(max-width:944px) {
   .new-view{
-      left: 50px;
+      left: 92px;
       padding-left: 0px;
   }
 
