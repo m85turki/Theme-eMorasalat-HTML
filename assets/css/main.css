@@ -87,7 +87,7 @@ html body {
 
 .h-side a{
     font-size: 18pt;
-    color: #8284a2;
+    color: #fff;
     position: relative;
     text-decoration: none;
 }
@@ -143,9 +143,10 @@ html body {
 
 .h-side .dropdown a {
    font-size: 11pt;
-    color: #525368 ;
+    color: #fff;
     position: relative;
 }
+
 
 .h-side .dropdown a.department-name{
    border: 1px solid rgba(38, 43, 86, 0.3);
@@ -219,7 +220,7 @@ html body {
     text-align: center;
     line-height: 28px;
     font-size: 18pt;
-    color: #525368 ;
+    color: #262B56 ;
     top: 5px;
     cursor: pointer;
     z-index:10;
@@ -255,7 +256,9 @@ html body {
 .icon-filter-form:hover{
 	color:#355781;
 }
-
+#navbarToggleExternalContent{
+    background-color: #FBFBFB;
+}
 
 @media only screen and (min-width: 550px){
 .h-search input {
@@ -416,7 +419,7 @@ input:focus:-ms-input-placeholder {
         background: #D0021B;
     }
     .correspondence-icon a.circle.color-gray{
-        background: #83A9B0;
+        background: #479DAE;
     }
     .correspondence-icon a.circle.color-light-gray{
         background: #fefefe;

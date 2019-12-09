@@ -1270,7 +1270,7 @@ select {
 }
 
 a.white-notification{
-	color:#525368 !important;
+	color:#fff !important;
 }
 
 a.white-notification .notification_sticky{
@@ -1296,7 +1296,7 @@ a.white-notification .notification_sticky{
 
 .right-arrow {
 	font-size: 16pt;
-    color: #61669B;
+    color: #262B56;
     position: relative;
     text-decoration: none;
     display: none;
@@ -1305,7 +1305,7 @@ a.white-notification .notification_sticky{
 
 .left-arrow {
 	font-size: 16pt;
-    color: #61669B;
+    color:#262B56;
     position: relative;
     text-decoration: none;
     display: none;
@@ -1461,7 +1461,8 @@ a.white-notification .notification_sticky{
 	color:#6ac258;
 }
 
-.navbar-default .navbar-nav > li {
+
+.navbar-default .header-nav> li {
     margin: 0px 5px;
 }
 
@@ -1522,7 +1523,7 @@ a.white-notification .notification_sticky{
     font-size: 12pt;
     transition: 0.2s;
     font-weight: normal;
-    padding: 15px 15px;
+    padding: 6px 6px;
     border-bottom: 2px solid transparent;
 }
 
@@ -1541,10 +1542,10 @@ a.white-notification .notification_sticky{
     }
 
 .navbar-default .navbar-nav > li.active > a {
-    background: #27AAE1;
+    background: #479DAE;
     border-color: #262b56;
     color:#fff;
-    padding: 10px 10px;
+    padding: 6px 6px;
 }
 
 .top-nav-list {
@@ -3618,7 +3619,7 @@ table > thead > tr {
 
     .new-view{
         position: absolute;
-        background: #fff;
+        background: #479DAE;
         width: 0px;
         opacity: 0.1;
         -webkit-transition: all 200ms ease;
@@ -3632,7 +3633,7 @@ table > thead > tr {
     }
     
     .new-view::before{
-        background-image:linear-gradient(to right, rgb(252, 252, 252), rgba(38, 43, 86, 0));
+        background-image:linear-gradient(to right, rgb(71, 157, 174), rgba(38, 43, 86, 0));
         position: absolute;
         width: 30px;
         height: 40px;

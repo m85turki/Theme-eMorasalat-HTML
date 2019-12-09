@@ -1950,11 +1950,11 @@ table tr td {
 }
 
 .right-arrow i{
-  border-right: 1px solid #61669B;
+  border-right: 1px solid #262B56;
 }
 
 .left-arrow i{
-  border-left: 1px solid #61669B;
+  border-left: 1px solid ##262B56;
   border-right:0 !important;
   padding-left: 0.5rem !important;
 }
@@ -1998,7 +1998,7 @@ table tr td {
 
 @media(max-width:944px) {
   .new-view{
-      left: 92px;
+    left: 93px;
       padding-left: 0px;
   }
 
@@ -2015,5 +2015,17 @@ table tr td {
 
 a.dropdown-toggle i{
   margin-right: 5px ;
+}
+@media (max-width:767px) and (min-width:761px){
+  .new-view{
+      top:13px;
+      left:56px;
+  }
+
+}
+@media (max-width:588px){
+#navbarToggleExternalContent {
+  background-color: #479DAE;
+}
 }
 

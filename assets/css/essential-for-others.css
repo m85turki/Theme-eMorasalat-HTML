@@ -117,7 +117,7 @@ a, a:hover, a:focus {
 }
 
 .top-header {
-    background-color: transparent;
+    background-color:#479DAE;
     padding-top: 7px;
     padding-bottom: 6px;
 }
@@ -133,12 +133,11 @@ a, a:hover, a:focus {
 }
 
 .navbar-second {
-    background-color: #fff;
+    background-color: #FBFBFB;
     margin-bottom: 0;
     border: none;
     border-radius: 0px;
     border-top: 1px solid rgba(38, 43, 86, 0.3);
-    border-bottom: 1px solid  rgba(38, 43, 86, 0.3);
 }
 
 .passdiv {
