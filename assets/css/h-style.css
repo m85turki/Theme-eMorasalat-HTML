@@ -3618,7 +3618,7 @@ table > thead > tr {
 
     .new-view{
         position: absolute;
-        background: #262B56;
+        background: #fff;
         width: 0px;
         opacity: 0.1;
         -webkit-transition: all 200ms ease;
@@ -3628,11 +3628,11 @@ table > thead > tr {
         transition: all 200ms ease;
         z-index: 9;
         visibility: hidden;
-        top: 8px;
+        top: 7px;
     }
     
     .new-view::before{
-        background-image: linear-gradient(to right, rgb(38, 43, 86), rgba(38, 43, 86, 0));
+        background-image:linear-gradient(to right, rgb(252, 252, 252), rgba(38, 43, 86, 0));
         position: absolute;
         width: 30px;
         height: 40px;

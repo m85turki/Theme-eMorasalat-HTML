@@ -181,7 +181,6 @@ html body {
 .h-avatar i {
     display: block;
     overflow: hidden;
-    vertical-align: middle;
     width: 30px;
     height: 30px;
     line-height: 32px;
@@ -318,23 +317,13 @@ input:focus:-ms-input-placeholder {
     border-radius: 4px;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar {
     background-color: #525368  ;
 }
-.navbar-default .navbar-toggle:hover{
-    background-color:transparent;
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:transparent!important;
 }
-
-
-@media only screen and (min-width: 550px){
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-        background: none !important;
-    }
-        .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
-        background-color: rgba(255, 255, 255, 0.55);
-    }
-}
-
 
 
 
@@ -721,6 +710,7 @@ white-space: nowrap;
     padding: 0px;
     color: #27AAE1;
     font-size: 16pt;
+    padding: 10px 8px 10px 14px;
 }
 
 

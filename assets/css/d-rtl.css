@@ -852,7 +852,7 @@ body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content>
 }
 
 body.vertical-layout.vertical-menu.menu-collapsed .main-menu .navigation>li>a {
-  padding: 10px 8px 10px 14px
+  padding: 10px 14px 10px 14px;
 }
 
 body.vertical-layout.vertical-menu.menu-collapsed .main-menu .navigation>li>a>span {

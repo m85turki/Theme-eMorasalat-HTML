@@ -115,10 +115,11 @@ html body .content.app-content {
     overflow: hidden
 }
 
-.navigation,
+/*.navigation,
 .navigation .navigation-header {
-    /* font-family: Montserrat, Georgia, 'Times New Roman', Times, serif */
-}
+    font-family: Montserrat, Georgia, 'Times New Roman', Times, serif 
+}*/
+
 
 html {
     font-size: 14px;
@@ -402,7 +403,6 @@ footer.footer-dark {
 .main-menu.menu-light .navigation>li {
     padding: 0;
     direction: rtl;
-    border-right: 4px solid transparent;
 }
 .main-menu.menu-light .navigation>li.open,.main-menu.menu-light .navigation>li:hover,.main-menu.menu-light .navigation>li.open,.main-menu.menu-light .navigation>li.active{
 background-color:#FBFBFB;
@@ -821,10 +821,7 @@ background-color:#FBFBFB;
     height: 100%;
 }
 
-@media (min-width: 768px){
-.main-menu.menu-fixed {
-}
-}
+
 
 .main-menu.menu-fixed .main-menu-footer {
     position: fixed
@@ -904,8 +901,6 @@ background-color:#FBFBFB;
 
 .navigation li a {
     display: block;
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
 
@@ -4146,7 +4141,7 @@ tr.shown td.details-control {
 @media only screen and (min-width:768px) {
     div.dataTables_wrapper div.dataTables_info {
         display: inline-block;
-        float: left
+        float: left;
     }
 }
 
