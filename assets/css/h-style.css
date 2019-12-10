@@ -1542,9 +1542,9 @@ a.white-notification .notification_sticky{
     }
 
 .navbar-default .navbar-nav > li.active > a {
-    background: #479DAE;
+    background: #ffffff;
     border-color: #262b56;
-    color:#fff;
+    color:#262B56;
     padding: 6px 6px;
 }
 
