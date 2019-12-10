@@ -30,6 +30,9 @@ html body {
     left: 0;
     width: calc(100% - 242px);
 }
+.menu-collapsed .fixed-top{
+    width: calc(100% - 62px);
+}
 .border-box2 {
     border: 1px solid #DBDBDB;
 }
@@ -61,6 +64,7 @@ html body {
     transform: translateZ(0);
     padding-bottom: 5px;
     box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.2);
+    top: 0px;
 }
 
 
@@ -82,6 +86,8 @@ html body {
 @media (min-width:1200px){
 .main_sidebar {
     position: fixed;
+    top:0px;
+    right:0px;
 }
 }
 
@@ -2662,4 +2668,6 @@ a.dropdown-toggle .name, a.dropdown-toggle .manager{
             max-width: 300px !important;
             display: block !important;
         }
+
+        .menu-expanded .menu-content.menu-popout.ps{display:none;}
         

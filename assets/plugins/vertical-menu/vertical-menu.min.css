@@ -107,7 +107,9 @@
     }
 }
 
-
+html body.fixed-navbar {
+    padding-top: 7rem;
+}
 
 /********** Components ***********/
 .app-content.center-layout,

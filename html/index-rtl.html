@@ -2752,27 +2752,22 @@ $(".right-arrow").click(function () {
 
 </script>
 <script>
-    $(function(){
-        var opposite=$(".hidden-xs").hasClass("is-active");
-        $(window).resize(function(){
-            var screent=$(this);
-            if(screent.width()>=992){
-                
-                $(".main_logo img").attr("src","../assets/images/logo.svg");
+        $(function () {
+            var opposite = $(".hidden-xs").hasClass("is-active");
+            $(window).resize(function () {
+                var screent = $(this);
+                if (screent.width() >= 992) {
 
-            }
-            else{
-                $(".main_logo img").attr("src","../assets/images/logo-icon.svg");
-            }
-            if((screent.width()>=992) && (opposite==true)){
-                debugger
-              $(".main-menu.menu-light ul.menu-popout").css("display","none");
-            }
-              else{
-                $(".main-menu.menu-light ul.menu-popout").css("display","block"); 
-              }
-    });
+                    $(".main_logo img").attr("src", "../assets/images/logo.svg");
+
+                }
+                else {
+                    $(".main_logo img").attr("src", "../assets/images/logo-icon.svg");
+                }
+
+            });
         });
+
 
 </script>
 <script>
