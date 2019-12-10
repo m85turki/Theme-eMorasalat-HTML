@@ -2023,7 +2023,7 @@ a.dropdown-toggle i{
   }
 
 }
-@media (max-width:588px){
+@media (max-width:767px){
 #navbarToggleExternalContent {
   background-color: #479DAE;
 }
