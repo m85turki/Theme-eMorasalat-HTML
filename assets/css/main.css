@@ -27,8 +27,8 @@ html body {
     position: fixed;
     z-index: 999;
     top: 0px;
-    right: 0;
     left: 0;
+    width: calc(100% - 242px);
 }
 .border-box2 {
     border: 1px solid #DBDBDB;
@@ -717,8 +717,8 @@ white-space: nowrap;
 }
 
 
-.nav-link.menu-toggle:hover{
-    color: #27AAE1;
+.nav-link.menu-toggle,.nav-link.menu-toggle:hover{
+    color: #fff;
 }
 
 .nav-link.menu-toggle i img{
@@ -1014,7 +1014,16 @@ a.aExplanation {
         width: 100%;
         padding: 1rem;
     }
-
+    @media (max-width:991px) and (min-width:768px){
+        .fixed-top{
+        width: calc(100% - 62px);
+        }
+    }
+    @media(max-width:767px){
+        .fixed-top{
+            width: 100%;
+            }
+    }
 
 @media (min-width: 720px){
     .card-grid{
@@ -2419,7 +2428,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 
 .vertical-layout .mobile-menu{
     display: block;
-    z-index: 1000000000000000000000000000000000000;
+    z-index: 1000000000000000000000;
 }
 
 /* added_departments */
@@ -2653,3 +2662,4 @@ a.dropdown-toggle .name, a.dropdown-toggle .manager{
             max-width: 300px !important;
             display: block !important;
         }
+        
