@@ -4273,9 +4273,6 @@ body.vertical-layout.vertical-menu .content,body.vertical-layout.vertical-menu .
     }
 }
 @media(min-width:992px){
-    .main-menu.menu-light ul.menu-popout{
-        display: none;
-    }
     body.vertical-layout.vertical-menu.menu-expanded .main-menu .main-menu-content>span.menu-title{
         display: none;
     }
