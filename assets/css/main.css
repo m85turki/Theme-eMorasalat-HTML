@@ -33,6 +33,9 @@ html body {
 .menu-collapsed .fixed-top{
     width: calc(100% - 62px);
 }
+.menu-expanded .fixed-top{
+    width: calc(100% - 242px);
+}
 .border-box2 {
     border: 1px solid #DBDBDB;
 }
@@ -1777,7 +1780,7 @@ position :relative;
     color: #262B56;
     border: 0px; 
     background-color: transparent;
-    border-bottom: 3px solid #27AAE1;
+    border-bottom: 3px solid #1C5CC7;
     position:relative;
 }
 /** end sub tabs **/
@@ -2434,7 +2437,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 
 .vertical-layout .mobile-menu{
     display: block;
-    z-index: 1000000000000000000000;
+    z-index: 100000000000000000000000000;
 }
 
 /* added_departments */

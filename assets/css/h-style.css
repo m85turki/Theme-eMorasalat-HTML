@@ -1523,7 +1523,7 @@ a.white-notification .notification_sticky{
     font-size: 12pt;
     transition: 0.2s;
     font-weight: normal;
-    padding: 6px 8px;
+    padding: 4px 4px;
     border-bottom: 2px solid transparent;
 }
 
@@ -3461,6 +3461,12 @@ table > thead > tr {
 		min-width: 10%!important;
 		padding: 0!important;
     }
+    .navbar-default .navbar-nav > li> a {
+        color:white;
+    }
+    .header-nav{
+        padding: 6px 10px;
+    }
 }
 
 @media(max-width:576px) {
@@ -3622,7 +3628,7 @@ table > thead > tr {
 
     .new-view{
         position: absolute;
-        background: #479DAE;
+        background: #1C5CC7;
         width: 0px;
         opacity: 0.1;
         -webkit-transition: all 200ms ease;
@@ -3636,7 +3642,7 @@ table > thead > tr {
     }
     
     .new-view::before{
-        background-image:linear-gradient(to right, rgb(71, 157, 174), rgba(38, 43, 86, 0));
+        background-image:linear-gradient(to right, rgb(28, 92, 199), rgba(38, 43, 86, 0));
         position: absolute;
         width: 30px;
         height: 40px;

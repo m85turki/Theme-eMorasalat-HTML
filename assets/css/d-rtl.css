@@ -1923,6 +1923,9 @@ table tr td {
 .pop_chat2 .second_person {
   left:30px;
 }
+.navbar-collapse .navbar-nav .header-nav{
+  display: block;
+}
 
 .search-employee-input .input-group .input-group-append {
   border-right: 0!important;
@@ -1998,7 +2001,7 @@ table tr td {
 
 @media(max-width:944px) {
   .new-view{
-    left: 93px;
+    left: 44px;
       padding-left: 0px;
   }
 
@@ -2025,7 +2028,7 @@ a.dropdown-toggle i{
 }
 @media (max-width:767px){
 #navbarToggleExternalContent {
-  background-color: #479DAE;
+  background-color: #1C5CC7;
 }
 }
 

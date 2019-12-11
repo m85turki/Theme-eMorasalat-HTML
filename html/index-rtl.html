@@ -110,7 +110,7 @@
         </div>
     </div>
     <div class="fixed-top">
-            <div class="top-header mx-3 mx-md-5 ">
+            <div class="top-header">
                 <div class="container-fluid">
                     <div class="d-flex flex-row">
                             <div class="mobile-menu d-md-none">
@@ -436,7 +436,7 @@
                                 </div>
                             </div>
                             
-                            <ul class="nav navbar-nav header-nav">
+                            <ul class="nav navbar-nav header-nav d-md-flex flex-md-nowrap">
                                 <li class="active"><a href="#">المعاملات</a></li>
                                 <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
                                 <li><a href="#">استقبال الادارة</a></li>
@@ -2756,12 +2756,12 @@ $(".right-arrow").click(function () {
             var opposite = $(".hidden-xs").hasClass("is-active");
             $(window).resize(function () {
                 var screent = $(this);
-                if (screent.width() >= 992) {
+                if (screent.width() >= 992 &&(opposite==true)) {
 
                     $(".main_logo img").attr("src", "../assets/images/logo.svg");
 
                 }
-                else {
+                else if(opposite==false) {
                     $(".main_logo img").attr("src", "../assets/images/logo-icon.svg");
                 }
 
@@ -2769,13 +2769,6 @@ $(".right-arrow").click(function () {
         });
 
 
-</script>
-<script>
-    $(function () {
-        if($(".vertical-layout").hasClass("menu-expanded")){
-            $(".main_logo img").attr("src","../assets/images/logo.svg");
-        }
-    });
 </script>
 
 					   
