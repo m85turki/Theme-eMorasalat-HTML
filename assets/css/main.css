@@ -36,6 +36,7 @@ html body {
 .menu-expanded .fixed-top{
     width: calc(100% - 242px);
 }
+
 .border-box2 {
     border: 1px solid #DBDBDB;
 }

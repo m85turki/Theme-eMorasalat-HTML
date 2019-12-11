@@ -455,7 +455,8 @@
     <div class="align-self-start main_sidebar ">
             <div class="my-3 mx-3 d-flex logo_div">
                     <a class="main_logo" href="#">
-                        <img src="../assets/images/logo.svg" title="" alt="">
+                        <img src="../assets/images/logo.svg" title="" alt="" class="logo">
+                        <img src="../assets/images/logo-icon.svg" title="" style="display: none" class="logo-icon">
                     </a>
                 </div>
 <hr class="mb-3">
@@ -2751,24 +2752,23 @@ $(".right-arrow").click(function () {
 });
 
 </script>
+
 <script>
-        $(function () {
-            var opposite = $(".hidden-xs").hasClass("is-active");
-            $(window).resize(function () {
-                var screent = $(this);
-                if (screent.width() >= 992 &&(opposite==true)) {
+$(function(){
 
-                    $(".main_logo img").attr("src", "../assets/images/logo.svg");
-
-                }
-                else if(opposite==false) {
-                    $(".main_logo img").attr("src", "../assets/images/logo-icon.svg");
-                }
-
-            });
-        });
-
-
+    $(".menu-toggle.hidden-xs").click(function(){
+        debugger
+        if($(".vertical-layout").hasClass("menu-expanded")){
+            $(".logo").css("display","none");
+            $(".logo-icon").css("display","block");
+debugger
+        }
+        else{
+            $(".logo").css("display","block");
+            $(".logo-icon").css("display","none");
+        }
+    })
+})
 </script>
 
 					   

@@ -3461,14 +3461,16 @@ table > thead > tr {
 		min-width: 10%!important;
 		padding: 0!important;
     }
-    .navbar-default .navbar-nav > li> a {
-        color:white;
-    }
+
     .header-nav{
         padding: 6px 10px;
     }
 }
-
+@media(max-width:767px){
+    .navbar-default .navbar-nav > li> a {
+        color:white;
+    }
+}
 @media(max-width:576px) {
     .signaturebuttons {
         margin-bottom: 20px;
