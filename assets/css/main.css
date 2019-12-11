@@ -278,7 +278,7 @@ display: block;
 	color:#355781;
 }
 #navbarToggleExternalContent{
-    background-color: #FBFBFB;
+    background-color: transparent;
 }
 
 @media only screen and (min-width: 550px){
@@ -384,7 +384,7 @@ input:focus:-ms-input-placeholder {
 
 
 .filter-link a.active{
-    color: #27AAE1;
+    color: #1C5CC7;
 }
 
 
@@ -393,6 +393,7 @@ input:focus:-ms-input-placeholder {
     margin-top: 0px;
 }
 }
+
 
 
 @media (max-width: 1024px) and (min-width: 768px){

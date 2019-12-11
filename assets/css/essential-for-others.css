@@ -307,7 +307,7 @@ a, a:hover, a:focus {
 
 .notification_sticky {
     position: absolute;
-    top: -7px;
+    top: -13px;
     background: #FF2829;
     font-size: 13px;
     font-weight: normal;
