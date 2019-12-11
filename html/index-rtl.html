@@ -2755,13 +2755,19 @@ $(".right-arrow").click(function () {
 
 <script>
 $(function(){
+    if($(".vertical-layout").hasClass("menu-expanded")){
+        $(".logo").css("display","block");
+            $(".logo-icon").css("display","none");
 
-    $(".menu-toggle.hidden-xs").click(function(){
-        debugger
-        if($(".vertical-layout").hasClass("menu-expanded")){
+        }
+        else{
             $(".logo").css("display","none");
             $(".logo-icon").css("display","block");
-debugger
+        }
+    $(".menu-toggle.hidden-xs").click(function(){
+        if($(this).hasClass("is-active")){ /*when i click*/
+            $(".logo").css("display","none");
+            $(".logo-icon").css("display","block");
         }
         else{
             $(".logo").css("display","block");
