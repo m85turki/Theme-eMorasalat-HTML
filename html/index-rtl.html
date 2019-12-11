@@ -456,7 +456,7 @@
             <div class="my-3 mx-3 d-flex logo_div">
                     <a class="main_logo" href="#">
                         <img src="../assets/images/logo.svg" title="" alt="" class="logo">
-                        <img src="../assets/images/logo-icon.svg" title="" style="display: none" class="logo-icon">
+                        <img src="../assets/images/logo-icon.svg" title="" class="logo-icon">
                     </a>
                 </div>
 <hr class="mb-3">
@@ -2753,29 +2753,6 @@ $(".right-arrow").click(function () {
 
 </script>
 
-<script>
-$(function(){
-    if($(".vertical-layout").hasClass("menu-expanded")){
-        $(".logo").css("display","block");
-            $(".logo-icon").css("display","none");
-
-        }
-        else{
-            $(".logo").css("display","none");
-            $(".logo-icon").css("display","block");
-        }
-    $(".menu-toggle.hidden-xs").click(function(){
-        if($(this).hasClass("is-active")){ /*when i click*/
-            $(".logo").css("display","none");
-            $(".logo-icon").css("display","block");
-        }
-        else{
-            $(".logo").css("display","block");
-            $(".logo-icon").css("display","none");
-        }
-    })
-})
-</script>
 
 					   
 </body>

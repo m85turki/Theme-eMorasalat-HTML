@@ -36,7 +36,18 @@ html body {
 .menu-expanded .fixed-top{
     width: calc(100% - 242px);
 }
-
+.vertical-layout.menu-expanded .logo{
+display: block;
+}
+.vertical-layout.menu-expanded .logo-icon{
+    display: none;
+    }
+    .vertical-layout.menu-collapsed .logo{
+        display: none;
+    }
+    .vertical-layout.menu-collapsed .logo-icon{
+        display: block;
+    }
 .border-box2 {
     border: 1px solid #DBDBDB;
 }
