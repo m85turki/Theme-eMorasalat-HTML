@@ -3478,6 +3478,9 @@ table > thead > tr {
         top: -9px;
         font-size: 11px;
     }
+    .navbar-second{
+        background-color: #f2f1f1;
+    }
 }
 @media(max-width:576px) {
     .signaturebuttons {
@@ -3629,6 +3632,7 @@ table > thead > tr {
     width:100%;
     left:0;
 }
+
 
 }
 @media(max-width:991px){

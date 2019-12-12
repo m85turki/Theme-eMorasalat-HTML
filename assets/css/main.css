@@ -30,6 +30,9 @@ html body {
     left: 0;
     width: calc(100% - 242px);
 }
+.fixed-top.no-menu{
+    width: 100% !important;
+}
 .menu-collapsed .fixed-top{
     width: calc(100% - 62px);
 }
