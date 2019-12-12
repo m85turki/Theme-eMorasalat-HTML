@@ -150,7 +150,7 @@ display: block;
 }
 
 .h-side .dropdown>a:hover, .h-side .dropdown.open>a {
-    color: #8284a2;
+    color: #FFD;
 }
 
 
@@ -241,7 +241,7 @@ display: block;
     text-align: center;
     line-height: 28px;
     font-size: 18pt;
-    color: #262B56 ;
+    color: #92B1E4 ;
     top: 5px;
     cursor: pointer;
     z-index:10;
@@ -265,6 +265,9 @@ display: block;
     border-radius: 5px;
     position: relative;
     z-index: 9;
+}
+.h-search input::placeholder{
+    color:#92B1E4;
 }
 
 .input-group-text.hyperlink.white{

@@ -1538,13 +1538,9 @@ a.white-notification .notification_sticky{
     .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
         color: #262B56;
         background-color: transparent;
-        border-color:rgba(38, 43, 86, 0.3);
     }
 
 .navbar-default .navbar-nav > li.active > a {
-    background: #ffffff !important;
-    border-color: #262b56;
-    color:#262B56;
     padding: 6px 6px;
 }
 
@@ -3466,6 +3462,15 @@ table > thead > tr {
 @media(max-width:767px){
     .navbar-default .navbar-nav > li> a {
         color:white;
+    }
+    .navbar-default .header-nav> li.active> a{
+    color:#F5CA23;
+}
+    .header-nav{
+        padding:10px;
+    }
+    .notification_sticky{
+        top: -9px;
     }
 }
 @media(max-width:576px) {
