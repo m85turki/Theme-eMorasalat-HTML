@@ -4,8 +4,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
 <g>
-	<path fill="#262B56" d="M30.223,27.557H1.778V15.11H0V4.443h32V15.11h-1.777V27.557z M3.556,25.776h24.889V15.11H3.556V25.776z
+	<path fill="#262B56" d="M30.223,27.557H1.778V15.11H0V4.443h32V15.11h-1.777V27.557z M3.556,25.775h24.889V15.11H3.556V25.775z
 		 M30.223,13.333V6.222H1.778v7.111H30.223z"/>
-	<path fill="#27AAE1" d="M14.222,8h3.555c1.964,0,3.556,1.592,3.556,3.556H10.667C10.667,9.592,12.259,8,14.222,8z"/>
+	<path fill="#1C5CC7" d="M14.222,8h3.555c1.964,0,3.556,1.592,3.556,3.556H10.667C10.667,9.592,12.259,8,14.222,8z"/>
 </g>
 </svg>
