@@ -3179,13 +3179,15 @@ table > thead > tr {
     font-size: 20px;
     vertical-align: middle;
 }
-.header-nav > li.active > a{
-    background: #fff !important;
-}
+
 
 @media (min-width: 768px) {
     .modal-dialog {
         width: 520px;
+    }
+    .header-nav > li.active > a{
+        background: #fff !important;
+        border-bottom: 1px solid #F5CA23;
     }
 }
 
@@ -3457,6 +3459,7 @@ table > thead > tr {
 		min-width: 10%!important;
 		padding: 0!important;
     }
+
 
 }
 @media(max-width:767px){
