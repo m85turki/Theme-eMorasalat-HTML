@@ -1507,11 +1507,7 @@ a.white-notification .notification_sticky{
     }
 }
 
-@media(max-width:767px ) {
-        .navbar-default .navbar-nav > li > a {
-            font-size: 14px !important
-        }
-}
+
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #262B56;
@@ -1523,7 +1519,7 @@ a.white-notification .notification_sticky{
     font-size: 12pt;
     transition: 0.2s;
     font-weight: normal;
-    padding: 4px 4px;
+    padding: 6px 4px;
     border-bottom: 2px solid transparent;
 }
 
@@ -2285,6 +2281,7 @@ textarea.form-control {
     .long-textarea3 {
         min-height: 80px;
     }
+
 }
 
 .title6 {
@@ -3183,9 +3180,14 @@ table > thead > tr {
     vertical-align: middle;
 }
 
+
 @media (min-width: 768px) {
     .modal-dialog {
         width: 520px;
+    }
+    .header-nav > li.active > a{
+        background: #fff !important;
+        border-bottom: 1px solid #F5CA23;
     }
 }
 
@@ -3458,19 +3460,23 @@ table > thead > tr {
 		padding: 0!important;
     }
 
+
 }
 @media(max-width:767px){
     .navbar-default .navbar-nav > li> a {
         color:white;
     }
-    .navbar-default .header-nav> li.active> a{
+    .navbar-default .header-nav> li.active> a,.navbar-default .header-nav> li a:hover{
     color:#F5CA23;
 }
     .header-nav{
-        padding:10px;
+        padding-right:10px;
+        padding-left:10px;
+        margin: 3.5px -6px !important;
     }
-    .notification_sticky{
+    .header-nav .notification_sticky{
         top: -9px;
+        font-size: 11px;
     }
 }
 @media(max-width:576px) {
