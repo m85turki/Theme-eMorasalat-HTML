@@ -437,7 +437,7 @@
     font-size: 18px;
     padding: 2px;
     width: 100%;
-    background-color: #262b56 !important;
+    background-color: #1C5CC7 !important;
     border-radius: 7px 7px 0px 0px;
 }
 
@@ -1270,7 +1270,7 @@ select {
 }
 
 a.white-notification{
-	color:#fff !important;
+	color:#FBFBFB !important;
 }
 
 a.white-notification .notification_sticky{
@@ -1463,7 +1463,7 @@ a.white-notification .notification_sticky{
 
 
 .navbar-default .header-nav> li {
-    margin: 0px 5px;
+    margin: 0px 7px;
 }
 
 .dropdownposition {
@@ -1877,7 +1877,7 @@ hr {
 
 .box {
     border-radius: 6px;
-    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.2);
+    box-shadow:none;
     background-color: #ffffff;
     padding: 10px 10px 8px 10px;
     border: 1px solid rgba(238, 238, 238, 0.2);
