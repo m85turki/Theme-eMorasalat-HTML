@@ -226,8 +226,8 @@
 
 .btn-st1{
 	color: #fff;
-    background-color: #4A91E3;
-    border-color: #488cdc;
+    background-color: #27AAE1;
+    border-color: #27AAE1;
 }
   
   .btn-st1:hover {
@@ -269,13 +269,13 @@
     border-color: #2881e6;
 }
 .file-upload .btn-st2{
-    border: 1px dashed #2881e6;
+    border: 1px dashed #FE8F21;
 }
 
 .btn-st2:hover {
     color: #2881e6;
     background-color: #f8f6f6;
-    border-color: #2881e6;
+    border-color: #FE8F21;
 }
 
 .btn-st2:focus, .btn-st2.focus {
