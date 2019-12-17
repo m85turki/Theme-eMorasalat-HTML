@@ -302,7 +302,7 @@
 }
 
 .btn-st3{
-	background-color: #262B56;
+	background-color:#262B56;
 	color:#fff;
 }
 
@@ -1509,11 +1509,6 @@ a.white-notification .notification_sticky{
 
 
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #262B56;
-    background: #27AAE1;
-}
-
 .navbar-default .navbar-nav > li > a {
     color: rgba(38, 43, 86, 0.644);
     font-size: 12pt;
@@ -1892,6 +1887,7 @@ hr {
     box-shadow: transparent;
     border-radius: 7px;
 }
+
 
 .boxes {
     width: 100%;
@@ -3467,7 +3463,8 @@ table > thead > tr {
         color:white;
     }
     .navbar-default .header-nav> li.active> a,.navbar-default .header-nav> li a:hover{
-    color:#F5CA23;
+    color:#F5CA23 !important;
+    background-color:transparent!important;
 }
     .header-nav{
         padding-right:10px;

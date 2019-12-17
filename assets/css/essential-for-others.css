@@ -148,7 +148,7 @@ a, a:hover, a:focus {
     z-index: 10000;
     bottom: 100px;
     position: fixed;
-    display: inline;
+    display: inline-block;
     overflow: hidden;
     width: 500px;
     background-color: wheat;
