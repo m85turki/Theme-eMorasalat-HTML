@@ -4244,7 +4244,7 @@ body.vertical-layout.vertical-menu .content,body.vertical-layout.vertical-menu .
     height: 25px;
 }
 .navbar-nav {
-    margin: 13.5px -6px;
+    margin: 8.5px -6px;
 }
 
 .vertical-overlay-menu .main-menu .navigation>li>a>i:before{-webkit-transition:.2s ease all;-o-transition:.2s ease all;-moz-transition:.2s ease all;transition:.2s ease all}
