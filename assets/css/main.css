@@ -197,7 +197,7 @@ display: block;
 
 
 .h-avatar {
-    display: block;
+    display: inline-block;
     background: transparent;
     position: relative;
     width: 38px;
@@ -207,6 +207,7 @@ display: block;
     max-width: 38px;
     border: 1px solid rgba(38, 43, 86, 0.3);
     border-color: #27AAE1;
+    overflow:hidden;
 }
 
 .h-avatar i {
@@ -2441,12 +2442,13 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     filter: brightness(65%); 
 }
 
-.table-icon a.color-grey{color: #DFDFDF !important;}
-.table-icon a.color-orange{color: #D06902 !important;}
+.table-icon a.color-grey{color: #AEAFBD !important;}
+.table-icon a.color-orange{color: #F5CA23 !important;}
 .table-icon a.color-purple{color:#353C77 !important;}
-.table-icon a.color-blue{color: #4377A9 !important;}
-.table-icon a.color-burgundy{color: #CC0000 !important;}
+.table-icon a.color-blue{color: #1C5CC7 !important;}
+.table-icon a.color-burgundy{color: #27AAE1 !important;}
 .table-icon a.color-navy{color: #262B56 !important;}
+.table-icon a.color-dark-grey{color: #272E38 !important;}
 
 .signature-icon a.color-burgundy {
     color: #CC0000 !important;

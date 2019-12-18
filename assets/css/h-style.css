@@ -2166,6 +2166,7 @@ h4.title3 {
 .white-container.transparent-container{
     background:none !important;
     box-shadow: none!important;
+    border: 0!important;
 }
 .checkbox label{
     padding:0;
