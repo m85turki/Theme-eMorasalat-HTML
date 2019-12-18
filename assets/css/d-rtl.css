@@ -1998,6 +1998,20 @@ table tr td {
 .NoExtraPaddind {
   padding: 0 4px 0 17px;
 }
+.fixed-top {
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  left: 0;
+  width: calc(100% - 242px);
+}
+@media (min-width:1200px){
+  .main_sidebar {
+      position: fixed;
+      top:0px;
+      right:0px;
+  }
+  }
 
 @media(max-width:944px) {
   .new-view{
@@ -2026,9 +2040,5 @@ a.dropdown-toggle i{
   }
 
 }
-@media (max-width:767px){
-#navbarToggleExternalContent {
-  background-color: #1C5CC7;
-}
-}
+
 

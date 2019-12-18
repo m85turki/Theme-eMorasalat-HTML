@@ -6,9 +6,7 @@ html body {
 
 /* New */
 
-.h-side a em{
-    left: -5px;
-}
+
 
 .h-search i {
     right: 0px;
@@ -19,6 +17,14 @@ html body {
     float: right !important;
 }
 }
+@media (min-width:1200px){
+  .main_sidebar {
+      position: fixed;
+      top:0px;
+      left:0px;
+  }
+  }
+  
 
 .navbar-toggle {
     float: right;
@@ -248,6 +254,13 @@ li.list-group-item.has-sub:not(:first-child)::before {
 .status
 {
     left: 40px;
+}
+.fixed-top {
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  right: 0;
+  width: calc(100% - 242px);
 }
 
 .message-row.receiver 

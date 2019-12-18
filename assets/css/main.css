@@ -23,13 +23,7 @@ html body {
 }
 /* Main */
 
-.fixed-top {
-    position: fixed;
-    z-index: 999;
-    top: 0px;
-    left: 0;
-    width: calc(100% - 242px);
-}
+
 .fixed-top.no-menu{
     width: 100% !important;
 }
@@ -101,13 +95,7 @@ display: block;
     width: 242px;
 }
 
-@media (min-width:1200px){
-.main_sidebar {
-    position: fixed;
-    top:0px;
-    right:0px;
-}
-}
+
 
 .h-side a{
     font-size: 18pt;
@@ -747,12 +735,12 @@ white-space: nowrap;
     padding: 0px;
     color: #27AAE1;
     font-size: 16pt;
-    padding: 10px 14px 10px 14px;
+    padding: 0px 10px 0px 10px;
 }
 
 
 .nav-link.menu-toggle,.nav-link.menu-toggle:hover{
-    color: #fff;
+    color: #272E38;
 }
 
 .nav-link.menu-toggle i img{
@@ -1054,9 +1042,14 @@ a.aExplanation {
     }
     @media(max-width:767px){
         .fixed-top{
-            width: 100%;
+            width: 100% !important;
             }
+            #navbarToggleExternalContent {
+                background-color: #1C5CC7;
+              
     }
+    }
+        
 
 @media (min-width: 720px){
     .card-grid{
@@ -2451,7 +2444,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 .table-icon a.color-dark-grey{color: #272E38 !important;}
 
 .signature-icon a.color-burgundy {
-    color: #CC0000 !important;
+    color: #27AAE1 !important;
 }
 .signature-icon a {
     display: block;
