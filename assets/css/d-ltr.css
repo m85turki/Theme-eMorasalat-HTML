@@ -413,10 +413,6 @@ html body[data-col='1-column']:not(.vertical-content-menu) .footer {
   margin-right: inherit;
 }
 
-.main-menu.menu-light .navigation>li.open {
-  border-left: 4px solid #4A90E2;
-  border-right: inherit;
-}
 
 .main-menu.menu-light .navigation>li ul li>a {
   padding: 10px 50px 10px 18px
@@ -1106,13 +1102,14 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
 }
 
 .vertical-overlay-menu .main-menu .navigation li.has-sub>a:not(.mm-next):after {
-  right: 20px;
-  left: inherit;
+  right: 13px;
+  transform: rotate(180deg);
 }
 
 .vertical-overlay-menu.menu-flipped .main-menu {
-  left: -240px;
+  left: 239px;
   right: inherit;
+  top: 31px;
 }
 
 .vertical-overlay-menu.vertical-overlay-menu.boxed-layout.menu-open .main-menu {
