@@ -275,7 +275,6 @@
 .btn-st2:hover {
     color: #2881e6;
     background-color: #f8f6f6;
-    border-color: #FE8F21;
 }
 
 .btn-st2:focus, .btn-st2.focus {
@@ -349,8 +348,9 @@
     background-color: #0ed88a;
 }
 .btn-st6{
-    border: 1px solid #cc1c00!important;
-	color:#cc1c00;
+    border: 1px solid #FE8F22!important;
+    color: #000;
+}
 
 }
 .btn-st6:hover,.btn-st6:focus{
@@ -364,7 +364,7 @@
 }
 .btn-st7 {
     border: 1px solid #4990e2!important;
-	color:#4990e2;
+    color: #6b6c70;
 }
 .btn-st7:hover,.btn-st7:focus{
     background-color:#eff6ff;
@@ -1389,7 +1389,7 @@ a.white-notification .notification_sticky{
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid  #e2e2e2;
     border-radius: .25rem;
 }
 
