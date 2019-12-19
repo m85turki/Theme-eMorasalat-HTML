@@ -1164,7 +1164,7 @@ label {
 
 
 .input-group-text.hyperlink {
-    background-color: #06A950;
+    background-color: #F2F1F1;
     border: 1px solid #ced4da;
     color: #FFFFFF;
 }
@@ -1185,7 +1185,7 @@ label {
 }
 
 .input-group-text.hyperlink a {
-    color: #FFFFFF;
+    color: #42B4E5;
 }
 
 /**/
@@ -2492,9 +2492,6 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
         filter: brightness(65%)
     }
     
-    .added-class a.color-burgundy {
-        color: #CC0000 !important;
-    }
 
 .editor-stage{
     border: 1px solid #c2c2c2;
