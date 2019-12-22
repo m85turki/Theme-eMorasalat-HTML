@@ -739,7 +739,6 @@ white-space: nowrap;
 .nav-link.menu-toggle i{
 position: relative;
 bottom: 6px;
-padding: 0px 5px 0px 5px;
 }
 
 
@@ -1051,6 +1050,9 @@ a.aExplanation {
             #navbarToggleExternalContent {
                 background-color: #1C5CC7;
               
+    }
+    .nav-link.menu-toggle{
+        padding: 0px 14px 0px 0px !important;
     }
     }
         
