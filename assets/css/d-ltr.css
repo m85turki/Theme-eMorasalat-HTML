@@ -1765,7 +1765,7 @@ a.file {
 
         
 .f-line::after{
-  left: 10%;
+  left: 0%;
 }
 
 .nav-link.menu-toggle{
