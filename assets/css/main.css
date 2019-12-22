@@ -2245,7 +2245,7 @@ li.list-group-item.has-sub:not(:first-child)::before {
 .chat-icon{
     width: 50px;
     height: 50px;
-    background-color: #4CA1FF;
+    background-color: #27AAE1;
     border-radius: 50%;
     text-align: center;
     display: inline-block;
