@@ -739,6 +739,7 @@ white-space: nowrap;
 .nav-link.menu-toggle i{
 position: relative;
 bottom: 6px;
+padding: 0px 5px 0px 5px;
 }
 
 
