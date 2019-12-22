@@ -2031,8 +2031,8 @@ a.dropdown-toggle i{
 }
 @media (max-width:767px) and (min-width:761px){
   .new-view{
-      top:13px;
-      left:56px;
+    top: 12px;
+    left: 48px;
   }
 
 }
