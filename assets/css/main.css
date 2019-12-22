@@ -736,6 +736,10 @@ white-space: nowrap;
     color: #27AAE1;
     font-size: 16pt;
 }
+.nav-link.menu-toggle i{
+position: relative;
+bottom: 6px;
+}
 
 
 .nav-link.menu-toggle,.nav-link.menu-toggle:hover{
@@ -2464,6 +2468,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 .vertical-layout .mobile-menu{
     display: block;
     z-index: 100000000000000000000000000;
+    position: relative;
 }
 
 /* added_departments */
