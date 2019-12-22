@@ -2017,6 +2017,7 @@ table tr td {
 
   .new-view::before{
     right: -30px;
+    background-image: linear-gradient(to right, rgb(28, 92, 199), rgba(28, 92, 199, 0)) !important;
   }
 }
 
